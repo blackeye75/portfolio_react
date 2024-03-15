@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.button i{
+    display: none;
+}
+@media (max-width:600px) {
+    .menu{
+        display: none;
+    }
+    .brandi{
+        font-size: 2vw;
+        
+    }.button i{
+        display: block;
+        margin: auto;
+        font-size:6vw;
+        font-weight: 800;
+        
+    }
+    .button{
+        display: flex;
+        gap: 4vw;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+    }.img img{
+        height: 25vh;
+       
+    }.main-container .img{
+       justify-content: flex-start;
+       padding-left: 10vw;
+       padding-top: 5vmin;
+    }.main-container .text{
+        justify-content: flex-start;
+        padding-left: 10vw;
+        
+    }.main-container .text-con{
+        width: 80vw;
+    }.container2{
+        flex-direction: column;
+        width: 100vw;
+    }.img2>img{
+        width: 45vw;
+        height: 45vw;
+        /* padding-left: 5vw; */
+    }.container2 .img2{
+        width: 100vw;
+    }.container2 .text2{
+        width: 100%;
+        margin-top: 4vw;
+    }.services-container{
+        flex-direction: column;
+    }.exp-con{
+        flex-direction: column;
+    }.exp-con .exp-txt{
+        width: 100%;
+    }.exp-con .exp-skills{
+        width: 100%;
+    }.footer-link{
+        display: none;
+    }.footer-main .footer-txt{
+        width: 100%;
+    }.footer-main{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }.animation{
+        font-size: 5vw;
+    }.txt-con .animation-main{
+        font-size: 4.5vw;
+    }
+}
